@@ -192,7 +192,6 @@ img, audio, video {
 */
 
 html {
-  font-size: 1.891em; /* ~ 42px */
   line-height: 1.397em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
@@ -200,7 +199,12 @@ html {
   background-color: #c0c6c9;
 }
 
+body{
+  font-size: 1.397em; /* ~ 36px */
+  background-color:#e7eae5;
+}
 h1{
+  font-size: 1.891em; /* ~ 42px */
   background-color:#e7eae5;
   height: 35px;
 }
