@@ -202,8 +202,7 @@ html {
 
 h1{
   background-color:#e7eae5;
-  border-color: black;
-  border-style: solid;
+  background-size: contain;
 }
 
 label {
