@@ -123,9 +123,9 @@ progress {
  * Remove the default vertical scrollbar in IE.
  */
 
-textarea {
-  overflow: auto;
-}
+ textarea {
+   overflow: hidden;
+ }
 
 /**
  * 1. Add the correct box sizing in IE 10-.
@@ -197,8 +197,8 @@ html {
   padding: 1.397em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   text-align: center;
-  text-overflow:
   background-color: #c0c6c9;
+  margin: auto;
 }
 
 p, ol{
@@ -208,16 +208,21 @@ p, ol{
 h1{
   font-size: 1.651em;
   background-color:#d6d7d2;
-  height: 45px;
-  weight: 50%;
+  height: 100px;
 }
 
 label {
   display: block;
 }
-@media only screen and (min-width: 480px){
+@media only screen and (min-width: 650px){
+  html{
+    font-size: 1.651em;
+    margin-left: 50px;
+    margin-right: 50px;
+
+  }
   h1{
-    height: 60px;
+    height: 50px;
   }
 }
 
