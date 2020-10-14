@@ -202,10 +202,11 @@ html {
 
 p, ol{
   background-color:#e7eae5 ;
+  padding: 10px;
 }
 h1{
   font-size: 1.651em;
-  background-color:#eff3f0;
+  background-color:#d6d7d2;
   height: 45px;
 }
 
