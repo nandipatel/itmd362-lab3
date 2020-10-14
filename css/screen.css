@@ -197,6 +197,7 @@ html {
   padding: 1.397em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   text-align: center;
+  text-overflow:
   background-color: #c0c6c9;
 }
 
@@ -213,6 +214,11 @@ h1{
 
 label {
   display: block;
+}
+@media only screen and (min-width: 480px){
+  h1{
+    height: 60px;
+  }
 }
 
 /* ===== LAYOUT STYLES ====== */
