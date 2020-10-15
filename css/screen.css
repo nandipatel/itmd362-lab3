@@ -216,6 +216,10 @@ input[type=email] {
   background-color: #e7eae5;
   font-size: 1.010em;
 }
+input[type="checkbox"]{
+  height: 20px;
+  width: 20px;
+}
 
 label {
   display: block;
