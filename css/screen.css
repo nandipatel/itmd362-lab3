@@ -209,6 +209,7 @@ h1{
   font-size: 1.651em;
   background-color:#d6d7d2;
   height: 100px;
+  margin-bottom: 20px;
 }
 input[type=email] {
   border: none;
@@ -225,6 +226,9 @@ input[type="checkbox"]{
 #verify{
   margin-top: -46px;
 }
+#space{
+  background-color: #c0c6c9;
+}
 label {
   display: block;
 }
@@ -237,9 +241,11 @@ label {
   input[type=email] {
     font-size: 1.100em;
   }
+
   input[type="checkbox"]{
     margin-right: 285px;
   }
+
   h1{
     height: 50px;
   }
